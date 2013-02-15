@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sombody</title>
+</head>
+<body>
+	<form method="get" action="apply-now.php">
+		<table cellpadding="" border=1px>
+			<tr>
+				<td>
+					<label for="LastName">Last Name</label>
+				</td>
+				<td colspan="3">
+					<input type="text" name="LastName" id="LastName" placeholder="" style="width: 250px">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="FirstName">First Name</label>
+				</td>
+				<td colspan="3">
+					<input type="text" name="FirstName" id="FirstName" placeholder="" style="width: 250px">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="Address">Address</label>
+				</td>
+				<td colspan="3">
+					<textarea name="Address" name="Address" id="Address" cols="30" rows="3"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="City">City</label>
+				</td>
+				<td>
+					<input type="text" name="City" id="City" placeholder="" style="width: 150px">
+				</td>
+				<td>
+					<label for="State">State</label>
+				</td>
+				<td>
+					<input type="text" name="State" id="State" placeholder="" style="width: 50px">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="ZIP">Zip/Postal Code</label>
+				</td>
+				<td colspan="3">
+					<input type="text" name="ZIP" id="ZIP" placeholder="" style="width: 250px">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="Country">Country</label>
+				</td>
+				<td colspan="3">
+					<select name="Country" id="Country">
+						<option value="blank">Select one</option>
+						<option value="BG">Bulgaria</option>
+						<option value="UK">United Kingdom</option>
+						<option value="FR">France</option>
+				</td>
+			</tr>
+			<tr>
+				<td>Phone (
+					<label for="CountryCode">country code,</label>
+					<br/>
+					<label for="AreaCode">area code, </label>
+					<label for="Number">number)</label>
+				</td>
+				<td colspan="3">
+					(+
+					<input type="text" name="CountryCode" id="CountryCode" placeholder="" style="width: 30px">
+					)
+					<input type="text" name="AreaCode" id="AreaCode" placeholder="" style="width: 70px">
+					-
+					<input type="text" name="Number" id="Number" placeholder="" style="width: 120px">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="EmailInput">E-Mail</label>
+				</td>
+				<td colspan="3">
+					<input type="email" name="EmailInput" id="EmailInput" style="width: 250px">
+				</td>
+			</tr>
+			<tr>
+				<td>Birth date</td>
+				<td colspan="3">
+					<label for="Month">Month</label>
+					<input type="text" name="Month" id="Month" placeholder="" style="width: 30px">
+					<label for="Day">Day</label>
+					<input type="text" name="Day" id="Day" placeholder="" style="width: 30px">
+					<label for="Year">Year</label>
+					<input type="text" name="Year" id="Year" placeholder="" style="width: 75px">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="Gender">Gender</label>
+				</td>
+				<td colspan="3">
+					<select name="Gender" id="Gender">
+						<option value="blank">Choose one</option>
+						<option value="M">Male</option>
+						<option value="F">Female</option>
+				</td>
+			</tr>
+			<tr>
+				<td>Starting date</td>
+				<td colspan="3">
+					<input type="radio" name="Year1" id="2012" Value="2012">
+					<label for="2012">2012</label>
+					<input type="radio" name="Year1" id="2013" Value="2013">
+					<label for="2013">2013</label>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="Comments">Comments/Question</label>
+				</td>
+				<td colspan="3">
+					<textarea name="Comments" id="Comments" cols="30" rows="4"></textarea>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
